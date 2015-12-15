@@ -9,9 +9,9 @@ function genMale(final) {
     surname = genSur();
     var pickIt = Math.floor(Math.random() * maleNames.length);
     if (final) {
-        document.getElementById('result').innerHTML = maleNames[pickIt] + " " + surname;
+        document.getElementById('result').innerHTML = maleNames[pickIt] + " " + surname + " <small>&#9794;</small>";
     } else {
-        return maleNames[pickIt] + " " + surname;
+        return maleNames[pickIt] + " " + surname + " (male)";
     }
 }
 
@@ -20,9 +20,9 @@ function genFemale(final) {
     surname = genSur();
     var pickIt = Math.floor(Math.random() * femaleNames.length);
     if (final) {
-        document.getElementById('result').innerHTML = femaleNames[pickIt] + " " + surname;
+        document.getElementById('result').innerHTML = femaleNames[pickIt] + " " + surname + " <small>&#9792;</small>";
     } else {
-        return femaleNames[pickIt] + " " + surname;
+        return femaleNames[pickIt] + " " + surname + " (female)";
     }
 }
 
