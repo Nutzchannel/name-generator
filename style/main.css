@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&text=zigpto);
+@import url(https://fonts.googleapis.com/css?family=Roboto&text=eh);
+@import url(https://fonts.googleapis.com/css?family=Lato&text=am);
+@import url(https://fonts.googleapis.com/css?family=Oswald&text=nr);
+@import url(https://fonts.googleapis.com/css?family=Montserrat&text=TASNG);
+/* line 7, ../scss/main.scss */
+header {
+  background-color: black;
+  display: block;
+  padding: 10px;
+}
+
+/* line 13, ../scss/main.scss */
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#c92705, #f39109);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 20, ../scss/main.scss */
+h1.glitch {
+  font-family: 'Montserrat', 'Lato', 'Oswald', 'Open Sans', 'Roboto';
+}
