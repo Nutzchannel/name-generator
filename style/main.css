@@ -22,3 +22,8 @@ h1 {
 h1.glitch {
   font-family: 'Montserrat', 'Lato', 'Oswald', 'Open Sans', 'Roboto';
 }
+
+/* line 24, ../scss/main.scss */
+h2 {
+  color: black;
+}
