@@ -1,11 +1,15 @@
 function genSur() {
-    surnames = [];
+    surnames = [ "Smith", "Johnson", "Williams", "Jones", "Brown", "Davis", "Miller", "Wilson", "Moore", "Taylor",
+                "Anderson", "Thomas", "Jackson", "White", "Harris", "Martin", "Thompson", "Garcia", "Martinez", "Robinson",
+                "Clark", "Rodriguez", "Lewis", "Lee", "Walker", ];
     var pickIt = Math.floor(Math.random() * surnames.length);
     return surnames[pickIt];
 }
 
 function genMale(final) {
-    maleNames = [];
+    maleNames = [ "Noah", "Liam", "Mason", "Jacob", "William", "Ethan", "Michael", "Alexander", "James", "Daniel",
+    "Elijah", "Benjamin", "Logan", "Aiden", "Jayden", "Matthew", "Jackson", "David", "Lucas", "Joseph",
+    "Anthony", "Andrew", "Samuel", "Gabriel", "Joshua" ];
     surname = genSur();
     var pickIt = Math.floor(Math.random() * maleNames.length);
     if (final) {
@@ -16,7 +20,9 @@ function genMale(final) {
 }
 
 function genFemale(final) {
-    femaleNames = [];
+    femaleNames = [ "Emma", "Olivia", "Sophia", "Isabella", "Ava", "Mia", "Emily", "Abigail", "Madison", "Charlotte",
+    "Harper", "Sofia", "Avery", "Elizabeth", "Amelia", "Evelyn", "Ella", "Chloe", "Victoria", "Aubrey",
+    "Grace", "Zoe", "Natalie", "Addison", "Lillian" ];
     surname = genSur();
     var pickIt = Math.floor(Math.random() * femaleNames.length);
     if (final) {
